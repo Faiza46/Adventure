@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+header {
+    background-image: url(../images/world.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.432);
+    background-blend-mode: multiply;
+    padding: 15px 0;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+.explore-flex {
+    display: flex;
+    justify-content: end;
+}
+
+.flex {
+    display: flex;
+}
+
+.logo {
+    width: 20%;
+}
+
+.logo h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(252, 251, 251);
+}
+
+.logo h2 span {
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+}
+
+nav {
+    width: 80%
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: rgb(252, 250, 250);
+    text-decoration: none;
+    padding: 8px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/*banner start*/
+.banner-content {
+    padding: 150px 0;
+    text-align: center;
+    color: white;
+}
+
+.banner-content h3 {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.banner-content span {
+    width: 100px;
+    height: 5px;
+    background: #e12f50;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.banner-content h1 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.banner-content a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: rgba(243, 49, 88, 0.909);
+    padding: 12px;
+    border-radius: 5px;
+}
+
+
+.event {
+    padding-top: 60px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.event h2 {}
+
+.event span {
+    width: 100px;
+    height: 5px;
+    background: #e12f50;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.feature {}
+
+.col-1-2 {
+    padding: 20px;
+    text-align: center;
+}
+
+.col-1-2 img {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 7px;
+    box-shadow: 10px 10px 1px #80808045;
+}
+
+.col-1-2 h2 {
+    font-size: 30px;
+    color: #000000ad;
+    margin: 20px 0 0 0;
+}
+
+.col-1-2 p {
+    font-size: 15px;
+    color: #525252;
+}
+
+.col-1-2 a {
+    text-decoration: none;
+    color: #e12f50;
+    letter-spacing: 2px;
+    font-size: 17px;
+    margin-top: 15px;
+    display: block;
+}
+
+
+/*explore-section*/
+.explore-section {
+    background-image: url(../images/beach.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(12, 84, 239, 0.432);
+    background-blend-mode: multiply;
+    padding: 150px 0;
+    margin-top: 100px;
+    background-attachment: fixed;
+}
+
+
+.column {
+    width: 50%
+}
+
+.column h2 {
+    font-size: 50px;
+    color: white;
+}
+
+.column span {
+
+    width: 100px;
+    height: 5px;
+    background: #e12f50;
+    display: block;
+    margin-top: px;
+    margin-bottom: 10px;
+}
+
+.column p {
+    font-size: 18px;
+    color: white;
+    margin: 10px 0 25px 0;
+}
+
+.column a {
+    text-decoration: none;
+    color: #fcfbfb;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+/*Tour Section Started*/
+.tour-section {
+    padding: 60px 0;
+}
+
+.col-1-3 {
+    padding: 20px;
+}
+
+.col-1-3 h2 {
+    font-size: 30px;
+    color: #070707;
+    margin: 20px 0 0 0;
+}
+
+.col-1-3 p {
+    font-size: 15px;
+    color: #525252;
+    margin-bottom: 30px;
+}
+
+.col-1-3 span {
+    width: 100px;
+    height: 5px;
+    background: #e12f50;
+    display: block;
+    margin-top: px;
+    margin-bottom: 10px;
+}
+
+.col-1-3 a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: rgba(243, 49, 88, 0.909);
+    padding: 12px;
+    border-radius: 20px;
+}
+
+
+.col-1-3 img {
+    margin-bottom: 20px;
+
+}
+
+.small {
+    height: 300px;
+    width: 600px;
+
+}
+
+.big {
+    height: 400px;
+    width: 2000px;
+}
+
+.container2 {
+    height: 150px;
+    width: 900px;
+    margin: auto;
+}
+
+.footer {
+    background-color: #e12f50;
+}
+
+.info h3 {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    margin: auto;
+
+}
